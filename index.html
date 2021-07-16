@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+
+
+    <title>Sunshine Dry Cleaners</title>
+</head>
+<body>
+    <!-- NavBar -->
+    
+    <nav>
+        <input id="nav-toggle" type="checkbox">
+        <div class="logo">
+            <a href="#">
+                <img class="" src="" alt="">
+                <strong>Sunshine Dry Cleaners</strong>
+            </a>
+        </div>
+        <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-us">About </a></li>
+            <li><a href="#artist">Services</a></li>
+            <li><a href="#tattoos">Pricing</a></li>
+            <li><a href="#contact-us">Contact</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
+
+
+    <!-- carousel -->
+    
+    <a name="home"></a>
+    <div class="carousel-height">
+        <p>h</p>
+    </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+    
+            <div class="item active">
+                <img src="https://img.favpng.com/22/5/4/mount-scenery-mountain-range-21-9-aspect-ratio-desktop-wallpaper-png-favpng-9btWmqUdFYXF9350qs9bt5GWh.jpg" alt="Lotus-temple" style="width:100%;">
+                <div class="carousel-caption">
+                    <h3>Los Angeles</h3>
+                    <p>LA is always so much fun!</p>
+                </div>
+            </div>
+    
+            <div class="item">
+                <img src="data:image/jpeg;base64,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"
+                    alt="Liberty" style="width:100%;">
+                <div class="carousel-caption">
+                    <h3>Chicago</h3>
+                    <p>Thank you, Chicago!</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCSqryrOrqLikmiyp4PQyeOLKr8qK5ec3aKQ&usqp=CAU"
+                    alt="Liberty" style="width:100%;">
+                <div class="carousel-caption">
+                    <h3>Chicago</h3>
+                    <p>Thank you, Chicago!</p>
+                </div>
+            </div>
+    
+           
+    
+        </div>
+    
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    
+    <div class="flip-container">
+        <div class="spacer"></div>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <h2>Front Side</h2>
+                </div>
+                <div class="flip-box-back">
+                    <h2>Back Side</h2>
+                </div>
+            </div>
+        </div>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <h2>Front Side</h2>
+                </div>
+                <div class="flip-box-back">
+                    <h2>Back Side</h2>
+                </div>
+            </div>
+        </div>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <h2>Front Side</h2>
+                </div>
+                <div class="flip-box-back">
+                    <h2>Back Side</h2>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+    </div>
+
+
+    <!-- passionate -->
+
+
+    <div class="passionate">
+        <div class="passionate-title">
+            <h1>We are passionate about dry cleaning and laundry</h1>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard
+                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                specimen
+                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                unchanged.
+            </p>
+        </div>
+        <div class="passionate-img">
+            <img class="pass-img" width="30%" src="https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGF1bmRyeXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="">
+            <img class="pass-img" width="30%" src="https://images.unsplash.com/photo-1561053720-76cd73ff22c3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGF1bmRyeXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="">
+        </div>
+    </div>
+
+
+    <!-- steps -->
+
+    <div class="steps-wrapper">
+        <h1>How it works</h1>
+        <div class="steps-container">
+            <div class="steps">
+                <img src="./img/step-1.png" alt="step-1">
+                <h3>Step 1</h3>
+                <p>Bag all your dirty clothes</p>
+            </div>
+            <div class="steps">
+                <img src="./img/step-2.png" alt="step-2">
+                <h3>Step 2</h3>
+                <p>We pick up your clothes</p>
+            </div>
+            <div class="steps">
+                <img src="./img/step-3.png" alt="step-3">
+                <h3>Step 3</h3>
+                <p>We clean your clothes</p>
+            </div>
+            <div class="steps">
+                <img src="./img/step-4.png" alt="step-4">
+                <h3>Step 4</h3>
+                <p>We deliver clean, folded clothes</p>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+    
+    <!-- SERVICES SECTION -->
+    <div class="section services">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <div class="page-title">
+                        <h1 class="">OUR SERVICES</h2>
+                        <p class="">Just drop-off your clothes at any of our stores or request for a devour online.
+                            we'll do the rest! We wash, dry and iron your clothes, you only need to ask.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row">
+    
+                <div class="col-sm-6 col-md-6">
+                    <div class="services-item left">
+                        <div class="icon">
+                            <img src="https://easycleandrycleaners.in/static/images/kikWASH_wash_and_fold.jpg" alt="" class="img-circle" />
+                        </div>
+                        <div class="ket">
+                            <h4>WASH AND FOLD</h4>
+                            <p>Easy clean drycleaners take care of your all laundry need we are a team of professional who
+                                take care of your cloths.</p>
+                        </div>
+                    </div>
+                    <div class="services-item left">
+                        <div class="icon">
+                            <img src="https://easycleandrycleaners.in/static/images/home-service-img-2.jpg" alt="" class="img-circle" />
+                        </div>
+                        <div class="ket">
+                            <h4>WASH AND IRON</h4>
+                            <p>Easy clean laundry will press your shirts properly, and you'll have them folded or placed on
+                                hangers.</p>
+                        </div>
+                    </div>
+                    <div class="services-item left">
+                        <div class="icon">
+                            <img src="https://easycleandrycleaners.in/static/images/wash-and-iron.jpg" alt="" class="img-circle" />
+                        </div>
+                        <div class="ket">
+                            <h4>STEAM IRON</h4>
+                            <p>It's the best and affordable iron service.</p>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="col-sm-6 col-md-6">
+                    <div class="services-item right">
+                        <div class="icon">
+                            <img src="https://easycleandrycleaners.in/static/images/kikWASH_dryclean.jpg" alt="" class="img-circle" />
+                        </div>
+                        <div class="ket">
+                            <h4>DRY CLEANING</h4>
+                            <p>Easy clean cleaning is any cleaning process for clothing and textiles employing a chemical
+                                solvent aside from water.</p>
+                        </div>
+                    </div>
+                    <div class="services-item right">
+                        <div class="icon">
+                            <img src="https://easycleandrycleaners.in/static/images/kikWASH_shoes_wash.jpg" alt="" class="img-circle" />
+                        </div>
+                        <div class="ket">
+                            <h4>SHOES LAUNDRY</h4>
+                            <p>During the cleaning process, each pair is handled with utmost care and checked for any minor
+                                repair.</p>
+                        </div>
+                    </div>
+                    <div class="services-item right">
+                        <div class="icon">
+                            <img src="https://easycleandrycleaners.in/static/images/kikWASH_bag_wash.jpg" alt="" class="img-circle" />
+                        </div>
+                        <div class="ket">
+                            <a href="https://easycleandrycleaners.in/bag-drycleaning-service-noida.php">
+                                <h4>BAG DRY CLEANING</h4>
+                            </a>
+                            <p>lets take a try to our bag drycleaning service.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Why choose us-->
+    <div class="steps-wrapper">
+        <h1>Why choose us</h1>
+        <div class="steps-container">
+            <div class="steps">
+                <img src="./img/step-1.png" alt="step-1">
+                <h3>Convenience</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="steps">
+                <img src="./img/step-2.png" alt="step-2">
+                <h3>Expert Cleaners</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="steps">
+                <img src="./img/step-3.png" alt="step-3">
+                <h3>Affordable</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="steps">
+                <img src="./img/step-4.png" alt="step-4">
+                <h3>Express delivery</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+        </div>
+        <br><br><br><br><br><br>
+    </div>
+
+    <footer class="footer">
+        <div class="l-footer">
+            <h1>
+                Sunshine Dry cleaner
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam atque recusandae in sit sunt molestiae
+                aliquid fugit. Mollitia eaque tempore iure sit nobis? Vitae nemo, optio maiores numquam quis recusandae.</p>
+        </div>
+        <ul class="r-footer">
+            <li>
+                <h2>
+                    Social</h2>
+                <ul class="box">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                    <li><a href="#">Dribbble</a></li>
+                </ul>
+            </li>
+            <li class="features">
+                <h2>
+                    Quick links</h2>
+                <ul class="box ">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>
+                    Legal</h2>
+                <ul class="box">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Contract</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="b-footer">
+            <p>
+                All rights reserved by ©CompanyName 2020 </p>
+        </div>
+    </footer>
+
+</body>
+</html>
